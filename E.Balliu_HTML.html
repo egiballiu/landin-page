@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <img class='logo' src="img/logo.png" >
+    
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="nav-item" href="#about-us" >About Us</a>
+                    <a href="#section-lists-images" >Skin Type</a>
+                    <a href="#section-products" >Products</a>
+                    <a href="#section-contact">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row" id="hero-section">
+            <div class="col-md-12">
+                <video src="img/hero.mp4" height="600px" width="100%" controls autoplay type="video/mp4"></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-end section-title-description" id="about-us">
+            <div class="col-md-12 col-sm-12 text-center">
+                <h1>Skinvestment</h1>
+            </div>
+            <div class="col-md-12 col-xs-12 text-center">
+                <h4>Good skin care is important for the following reasons: It helps your skin stay in good condition: You're shedding skin cells throughout the day, so it's important to keep your skin glowing and in good condition. An effective routine can help prevent acne, treat wrinkles, and help keep your skin looking its best.</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="section-lists-images">
+            <div class="row">
+                <div class="section-right-oriented">
+                    <div class="col-md-6 col-xs-12 list list-left">
+                        <h3>Get to know your type of skin!</h3>
+                        <ul class="list-unstyled">
+                            <li>Dry skin</li>
+                            <li>Normal skin</li>
+                            <li>Mix skin</li>
+                            <li>Oily skin</li>
+                        </ul><br>
+                        <a href="#" class="list-button btn btn-primary">Learn more</a>
+                    </div>
+                    <div class="col-md-6 col-xs-12 image-section">
+                        <img src="img/cerave.png" height="500px" width="100%" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="section-left-oriented">
+                    <div class="col-md-6 col-xs-12 image-section">
+                        <img src="img/peptide.png" height="500px" width="100%">
+                    </div>
+                    <div class="col-md-6 col-xs-12 list list-right">
+                        <h3>Skincare products you should have:</h3>
+                        <ul class="list-unstyled">
+                            <li>Cleanser</li>
+                            <li>Moisturizing</li>
+                            <li>SPF</li>
+                            <li>Serums</li>
+                        </ul><br>
+                        <a href="#" class="list-button btn btn-primary" >Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="section-products">
+        <h2 class="text-center" >Our products</h2>
+        <div class="row gallery" >
+            <div class="col-md-4 col-xs-12 image-button" >
+                <img src="img/inkeylist.png" height="500px">
+                <a href="#" class="see-products btn btn-light">See all products</a>
+            </div>
+
+            <div class="col-md-4 col-xs-12 images-in-column" >
+                <img src="img/ordinary.png" >
+                <img src="img/mandelic.png">
+            </div>
+
+            <div class="col-md-4 col-xs-12 image-button" >
+                <img src="img/paulas.png" height="500px" >
+                <a href="#" class="see-products btn btn-light">See all products</a>
+            </div>
+        </div>
+    </div>
+    <div id="section-contact" class="col-md-12 col-sm-12 ">
+        <h2 class="text-center">Contact us</h2>
+        <div class="contacts-blocks">
+            <form class="col-md-4 col-sm-12 col-xs-12">
+                <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="name">
+                <br>
+                <label for="surname" class="form-label">Surname </label>
+                    <input type="text" id="surname" class="form-control" placeholder="surname">
+            <br>
+                <label for="message" class="form-label" style="vertical-align: top;">Message</label>
+                <textarea type="text" id="message" class="form-control" placeholder="Write your message here" rows="5"></textarea>
+                <br>
+                <input class="submit-button btn btn-primary" type="submit" value="Submit">
+                
+            </form>
+
+            <div class="info col-md-4 col-sm-12 col-xs-12">
+                <p>info@gmail.com</p>
+                <p>+355 312222222</p>
+                <p>Bulevardi Zogu I, Tirane, Albania</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span class="blockquote-footer">Copyrights by EB,Tirane@2022</span>
+    </footer>
+</body>
+</html>
